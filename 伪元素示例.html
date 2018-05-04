@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>伪元素示例</title>
+<style>
+*{margin:0; padding:0;}
+li{list-style:none;}
+ul{width:1200px; height:30px; margin:40px auto;}
+li{float:left;   position:relative;padding:0 15px; border-right:1px solid #333; line-height:30px; height:30px; margin-left: 10px; padding-right:30px;}
+li:after{content:""; display:block; width:0; height:0; border-top:4px solid #f00; border-left:3px solid transparent; border-right:3px solid transparent; position:absolute; right:2px; top:12px; /*padding-right:10px;*/margin-right:10px;}
+li:before{content:"1212312312";}
+p:first-letter{color:#f00; font-size:20px; font-weight:bold;}
+
+</style>
+</head>
+
+<body>
+<ul>
+	<li>无标文档</li>
+    <li>无标文档</li>
+    <li>无标文档</li>
+    <li>无标文档</li>
+    <li>无标文档</li>
+    
+</ul>
+<p>元素父元素高度自适应（父元素不写高度时，子元素写了浮动后，父元素会发生高度塌陷）动元素父元素高度自适应（父元素不写高度时，子元素写了浮动后，父元素会发生高度塌陷）动元素父元素高度自适应（父元素不写高度时，子元素写了浮动后，父元素会发生高度塌陷）动元素父元素高度自适应（父元素不写高度时，子元素写了浮动后，父元素会发生高度塌陷）动元素父元素高度自适应（父元素不写高度时，子元素写了浮动后，父元素会发生高度塌陷）动元素父元素高度自适应（父元素不写高度时，子元素写了浮动后，父元素会发生高度塌陷）动元素父元素高度自适应（父元素不写高度时，子元素写了浮动后，父元素会发生高度塌陷）动元素父元素高度自适应（父元素不写高度时，子元素写了浮动后，父元素会发生高度塌陷）动元素父元素高度自适应（父元素不写高度时，子元素写了浮动后，父元素会发生高度塌陷）动元素父元素高度自适应（父元素不写高度时，子元素写了浮动后，父元素会发生高度塌陷）</p>
+</body>
+</html>

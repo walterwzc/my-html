@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>第12</title>
+</head>
+
+<body>
+<h2>一、表格高级</h2>
+<h2>1、表格的作用：显示数据;</h2>
+<h2>（一）关于表格的CSS属性</h2>
+<h2>1、单元格间距(该属性必须给table添加)</h2>
+<h2>border-spacing:value;</h2>
+<h2>2、合并相邻单元格边框</h2>
+<h2>border-collapse:separate(边框分开)/collapse(边框合并)；</h2>
+<h2>3、无内容单元格显示、隐藏</h2>
+<h2>empty-cells:show/hide;</h2>
+<h2>&nbsp;</h2>
+<h2>4、表格布局算法</h2>
+<h2>table-layout:auto/fixed(固定宽度，不会随内容多少改变单元格宽度）</h2>
+<h2><strong>自动表格布局</strong>：列的宽度是由列单元格中没有折行的最宽的内容设定的。</h2>
+<h2>缺点：较慢（因为它需要在确定最终的布局前访问表格中的所有内容）。</h2>
+<h2>优点：灵活</h2>
+<h2>固定表格布局</h2>
+<h2>优点：加快运行的速度,允许浏览器更快的对表格进行布局。</h2>
+<h2>缺点:不太灵活</h2>
+<h2>&nbsp;</h2>
+<h2>&nbsp;</h2>
+<h2>5、表格标题</h2>
+<h2>&lt;caption&gt;标题内容&lt;/caption&gt;</h2>
+<h2>caption:表格标题</h2>
+<h2>表格标题位置：caption-side:top/right/bottom/left</h2>
+<h2>说明：left,right位置只有火狐识别，top,bottom IE7上版本支持，ie7以下版本不支持其它属性值，只识别top</h2>
+<h2>6、表格布局元素</h2>
+<h2>1、表格基本组成</h2>
+<h2>table（表格）&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tr（行） &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;td（列）</h2>
+<h2>th:表格列标题（放在tr里）</h2>
+<h2>&nbsp;</h2>
+<h2>重要属性：</h2>
+<h2>1）、colspan=&quot;value&quot;&nbsp;&nbsp;&nbsp;&nbsp;合并列</h2>
+<h2>2）、rowspan=&quot;value&quot;&nbsp;&nbsp;&nbsp;和并行</h2>
+<h2>水平对齐：align:left/center/right</h2>
+<h2>3）、valign=&quot;top/bottom/middle/baseline&quot; 垂直对齐方式&nbsp;</h2>
+<h2>４）rules=&quot;groups/rows/cols/all/none&quot;&nbsp;&nbsp;&nbsp;&nbsp;添加组分隔线</h2>
+<h2>说明：</h2>
+<h2>rows:位于行之间的线条</h2>
+<h2>cols:位于列之间的线条</h2>
+<h2>all：位于行和列之间的线条</h2>
+<h2>none:没有线条</h2>
+<h2>groups:位于行组和列组之间的线条</h2>
+<h2>&nbsp;</h2>
+<h2>2、数据行分组</h2>
+<h2>&lt;thead&gt;&lt;/thead&gt; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;表头</h2>
+<h2>&lt;tbody&gt;&lt;/tbody&gt; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;表体</h2>
+<h2>&lt;tfoot&gt;&lt;/tfoot&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;表尾</h2>
+<h2>说明：一个Table中，只能包含一个thead,一个tfoot,但可包含多个tbody。</h2>
+<h2>3、数据列分组</h2>
+<h2>&lt;colgroup span=&quot;value&quot;&gt;&lt;/colgroup&gt;</h2>
+<h2>&nbsp;</h2>
+<h2>说明：</h2>
+<h2>1）colgroup元素会根据从左到右的顺序依次对数据表格进行分组。</h2>
+<h2>2）span属性显示指定相邻几列组成一组，span属性值默认为1，默认时仅定义一列为一组。</h2>
+<h2>3）可以通过给table添加rules=&quot;groups&quot;属性来给分组列添加组分割线。</h2>
+<h2>&nbsp;</h2>
+<h2>&nbsp;</h2>
+<h2>&lt;sub&gt;&lt;/sub&gt;下标</h2>
+<h2>&lt;sup&gt;&lt;/sup&gt;上标</h2>
+<p>&nbsp;</p>
+<h2>&amp;frac分数 </h2>
+<p>&nbsp;</p>
+<h2>&nbsp;</h2>
+</body>
+</html>

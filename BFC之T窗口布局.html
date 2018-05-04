@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style>
+*{margin:0; padding:0;}
+html,body{height:100%;}
+li{list-style:none;}
+.left{width:100px;  height:100%; background:#03C; float:right;}
+.right{height:100%; background:#F09; overflow:hidden;}
+.head,.bottom{ width:100%;height:100px; background:#6C6;}
+.main{width:100%; height:auto; background:#C3C; position:absolute; top:100px; bottom:100px;}
+.bottom{position:absolute;bottom:0;}
+iframe{width:100%; height:100%; }
+</style>
+</head>
+
+<body>
+<div class="head">
+	<p></p>
+</div>
+<div class="main">
+  <div class="left">
+  	<ul>
+    	<li><a href="demo1.html" target="text">新闻列表</a></li>
+        <li><a href="demo2.html">新闻列表</a></li>
+        <li><a href="#">新闻列表</a></li>
+        <li><a href="#">新闻列表</a></li>
+        <li><a href="#">新闻列表</a></li>
+    </ul>
+  </div>
+  <div class="right">
+  	<iframe scrolling="no" src="welcome.html" frameborder="0" name="text" src="">
+    </iframe>
+  </div>
+</div>
+<div class="bottom"></div>
+</body>
+</html>

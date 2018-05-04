@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style> 
+*{margin:0; padding:0;}
+li{list-style:none;}
+a{text-decoration:none; color:#333;}
+i{font-style:normal;}
+body{font:12px "微软雅黑";}
+ul li{float:left;}
+.nav{
+	width:1000px;border-bottom:8px solid #F60;height:20px; margin:20px auto;}
+.nav li{margin-left:1px;}
+.nav li a{display:block; background:#ccc; height:20px; width:80px; text-align:center; line-height:20px; font-weight:bold;}
+.nav i{display:none;}
+.nav a:hover{background:#F60; color:#fff;}
+.nav a:hover i{display:inline;}
+.nav a:hover span{display:none;}
+
+
+
+/*   nav2   */
+.nav2{
+	width:1000px;
+	height:36px;
+	margin:20px auto;
+	border-bottom:1px solid #9f9f9f;
+}
+.nav2 li{float:left;margin-left:15px;}
+
+
+
+/* 将border和height的变化放在a元素，而不是li上。 */
+.nav2 a{
+	display:block;
+	height:35px;
+	padding:0 14px;
+	line-height:34px;
+	background:#f7f7f7;
+	border:1px solid #cecece;
+	border-bottom:none;
+}
+
+.nav2 a:hover{
+	height:40px;
+	background:#fff;
+	border-color:#9f9f9f;
+	margin-top:-4px;
+}
+
+
+</style>
+</head>
+
+<body>
+<ul class="nav">
+	<li><a href="#"><i>首页</i><span>home</span></a></li>
+    <li><a href="#"><i>首页</i><span>home</span></a></li>
+   <li><a href="#"><i>首页</i><span>home</span></a></li>
+    <li><a href="#"><i>首页</i><span>home</span></a></li>
+    <li><a href="#"><i>首页</i><span>home</span></a></li>
+    <li><a href="#"><i>首页</i><span>home</span></a></li>
+    <li><a href="#"><i>首页</i><span>home</span></a></li>
+</ul>
+<ul class="nav2">
+	<li><a href="#">tab one</a></li>
+    <li><a href="#">tab one</a></li>
+    <li><a href="#">tab one</a></li>
+    <li><a href="#">tab one</a></li>
+    <li><a href="#">tab one</a></li>
+    <li><a href="#">tab one</a></li>
+    <li><a href="#">tab one</a></li>
+</ul>
+
+</body>
+</html>

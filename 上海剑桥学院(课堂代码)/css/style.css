@@ -1,0 +1,14 @@
+.header{height:35px; background: #e4e4e4;}
+.headcon{width:1002px; height: 100%; margin: 0 auto;}
+.headleft{float:left; margin-top:11px;}
+.headright{float:right;}
+.headcon li{float:left; line-height: 12px;}
+.headright ul,.headright form{float:left;}
+.headleft li{background: url(../img/line1.jpg) no-repeat left center; padding:0 9px;}
+.headright li{ margin-right:16px; line-height: 34px;}
+.headright form{margin-left:9px; margin-top:8px;}
+.headright form input{border:0;}
+.txt{width:135px; height:20px; float:left; line-height: 20px; color: #ccc; padding-left: 5px;}
+.btn{width:29px; height:20px; float:left; background:url(../img/btn.jpg) no-repeat center top;}
+/*logo*/
+.logo{width:1002px; height: 98px; background:#ff0; margin:0 auto;}
